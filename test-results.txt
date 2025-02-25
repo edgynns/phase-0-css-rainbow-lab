@@ -1,0 +1,33 @@
+
+> phase-0-css-rainbow-lab@1.0.0 test
+> mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json
+
+
+
+  index.html
+    ✔ contains a <head> tag
+    ✔ contains a <body> tag
+    within <head>
+      ✔ contains a <link> tag
+      ✔ correctly links to the main.css file with a relative path
+    within <body>
+      ✔ contains a <div> tag with an id of "red" 
+      ✔ contains a <div> tag with an id of "orange" 
+      ✔ contains a <div> tag with an id of "yellow" 
+      ✔ contains a <div> tag with an id of "green" 
+      ✔ contains a <div> tag with an id of "blue" 
+      ✔ contains a <div> tag with an id of "indigo" 
+      ✔ contains a <div> tag with an id of "violet" 
+
+  main.css
+    ✔ sets #red div border-top-color to #f00
+    ✔ sets #orange div border-top-color to #ffa500
+    ✔ sets #yellow div border-top-color to #ff0
+    ✔ sets #green div border-top-color to #00bc3f
+    ✔ sets #blue div border-top-color to #06f
+    ✔ sets #indigo div border-top-color to #8a2be2
+    ✔ sets #violet div border-top-color to #d300c9
+
+
+  18 passing (33ms)
+
